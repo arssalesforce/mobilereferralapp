@@ -1,0 +1,24 @@
+<ion-view title="Login" id="page5" ng-click="getTheToken()">
+  <ion-content padding="true" class="has-header">
+    <form id="login-form1" class="list">
+     <!--  <ion-list id="login-list1">
+        <label class="item item-input" id="login-input1">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="" ng-model="email">
+        </label>
+        <label class="item item-input" id="login-input2">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="password">
+        </label>
+      </ion-list> -->
+      <label class="item item-input" id="login-input1">
+          <span class="input-label">Output</span>
+          <input ng-model="data">
+      </label>
+
+      <div class="spacer" style="height: 40px;"></div>
+      <button id="login-button1" type='button' ng-click="getTheToken()" class="button button-stable button-block">Test Call</button>
+      <a href-inappbrowser="/signup" id="login-button2" class="button button-positive button-block button-clear">Or create an account</a>
+    </form>
+  </ion-content>
+</ion-view>

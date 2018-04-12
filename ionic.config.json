@@ -1,0 +1,24 @@
+{
+  "name": "referallApp",
+  "app_id": "",
+  "type": "ionic1",
+  "proxies": [ {
+    "path": "/salesforceapi",
+    "proxyUrl": "https://recovery--staging.cs95.my.salesforce.com/services/apexrest/GetAccountProfile/"
+  }, {
+    "path": "/newssapi",
+    "proxyUrl" : "https://reqres.in/api/users?page=2"
+  }
+  ],
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  },
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
+
+}
